@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="org.hibernate.jpa.test.pack.war">
+
+    <class name="entity.Teachers" table="TEACHERS">
+        <id name="tid" type="java.lang.String">
+            <generator class="assigned"/>
+        </id>
+        <property name="tname" type="java.lang.String"/>
+        <property name="gender" type="java.lang.String"/>
+        <property name="age" type="int"/>
+        <property name="teaching" type="java.lang.String"/>
+
+    </class>
+
+</hibernate-mapping>
+

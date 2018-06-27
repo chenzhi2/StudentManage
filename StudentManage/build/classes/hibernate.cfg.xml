@@ -15,5 +15,6 @@
 	<property name="hibernate.current_session_context_class">thread</property>
 	<mapping resource="entity/Users.hbm.xml"/>
 	<mapping resource="entity/Students.hbm.xml"/>
+	<mapping resource="entity/Teachers.hbm.xml"/>
 	</session-factory>
 </hibernate-configuration>
